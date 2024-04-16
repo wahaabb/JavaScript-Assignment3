@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assignment 1</title>
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbar">
+                <a class="navbar-brand text-light" href="#">Assignment</a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#">Chapter 15-20</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" id="search" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container mt-4 text-center">
+            <h4> Chapter # 15 - 20 | Arrays: Its Methods & for loops. </h4>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h5>Input</h5>
+                    <div class="border border-secondary rounded" id="border">
+                        <div class="input-group p-3 mt-3">
+                            <input type="text" class="form-control" id="inputtext" placeholder="Type your text here"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" id="clrbtn" type="button">Clear</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h4>Original String</h4>
+                    <div class="border border-secondary rounded  p-3" id="col2">
+                        <p>1) Faisalabad &nbsp; 2) Lahore &nbsp; 3) Karachi &nbsp; 4) peshawar &nbsp; 5) Quetta &nbsp;
+                            6) Multan &nbsp; 7) Kashmir</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-4">
+            <div class="row text-center ">
+                <div class="col">
+                    <h4>Buttons</h4>
+                    <div class="border border-secondary rounded text-center" id="buttons">
+                        <div class="mt-4">
+
+                            <button class="btn btn-danger  " onclick="alert('This is alert')" id="button1">Simple
+                                Alert</button>
+                            <button class="btn btn-danger " id="button2">Print my name</button>
+                            <button class="btn btn-danger " id="button3">Add city into List</button>
+                            <button class="btn btn-danger " id="button4">Print All cities</button>
+                            <button class="btn btn-danger mt-1 mb-1" id="button5">Generate Table</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h4>Output/Result</h4>
+                    <div class="border border-secondary" id="output"></div>
+                    <button class="mt-4 btn btn-outline-secondary" id="clearbtn">Clear Output</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid mt-5 text-center">
+            <p class="p-1"> &copy;2024 Assignment By <b> www.umairahmad.net</b></p>
+        </div>
+    </footer>
+    <!-- JAVASCRIPT -->
+    <script src="JS/script.js"></script>
+    <!-- BOOTSRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
